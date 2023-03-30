@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oleo+Script:wght@400;700&display=swap');
+
+/*  font-family: 'Oswald', sans-serif;
+    font-family: 'Lobster', cursive;   mota
+    font-family: 'Corinthia', cursive;   tedh
+    font-family: 'Oleo Script', cursive;  for head
+    font-family:  'Merriweather', serif;
+    font-family: 'Courgette', cursive; 
+    font-family: 'Lobster', cursive; 
+    font-family: 'Volkhov', serif; 
+ */
+
+body{
+    font-family: 'Lora', serif;
+}
+.border{
+    border: 1px solid red;
+}
+.clear{
+    clear: both;
+}
+.pad0{
+    padding: 0px 0px;
+}
+.pad50{
+    padding: 50px 50px;
+}
+.margin0{
+    margin: 0px 0px;
+}
+.header{
+	padding: 0px 50px;
+	background-color: #022127;
+}
+.header img{
+	height: 80px;
+}
+.header h1{
+	font-family: 'Lobster', cursive;
+	font-size: 2.3em; 
+	color:  #08b5f2; 
+	position: absolute;
+	top: 3px;
+	left: 2px;
+	text-transform: uppercase;
+}
+.header h1 span{
+	color: #fff;
+}
+.header ul{
+	list-style: none;
+	float: right;
+	padding: 20px 0px;
+
+}
+.header ul li{
+	float: left;
+	margin-right: 20px;
+}
+.header ul li a{
+	color: #fff;
+	font-size: 1.5em;
+	transition: all ease 0.5s;
+}
+.header ul li a:hover{
+	color: blue;
+}
+.information{
+	height: 450px;
+	background-color: #000;
+	/*background-image: linear-gradient(to left top, #f771bd, #d48be9, #a0a4ff, #62b8ff, #25c7ff, #32cff9, #47d6f3, #5edcec, #7ae1ec, #92e7ed, #a7ecef, #bbf1f1);*/
+}
+.introduction{
+	padding: 100px 80px;
+}
+.introduction h3{
+	color: #6D214F;
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.information h3 span{
+	color: blue;
+}
+
+
+
+.auto{
+
+}
+.auto .text{
+	position: relative;
+	color: #6D214F;
+	font-size: 4em;
+	font-weight: 600;
+}
+.auto .first-text{
+	color: blue;
+	font-size: 40px;
+	font-weight: 400;
+}
+.auto .sec-text:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #000;
+	/*background-image: linear-gradient(to left top, #f771bd, #d48be9, #a0a4ff, #62b8ff, #25c7ff, #32cff9, #47d6f3, #5edcec, #7ae1ec, #92e7ed, #a7ecef, #bbf1f1);*/
+
+	border-left: 2px solid #fff;
+	animation: animate 4s steps(12) infinite;
+}
+@keyframes animate{
+	40%,60%{
+		left: 100%;
+	}
+	100%{
+		left: 0%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.introduction h1{
+	color: #130f40;
+    font-family: 'Lobster', cursive;
+    font-size: 4em;
+    font-weight: 500;
+}
+.introduction h2{
+	color: blue;
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+    font-weight: 500;
+}
+.information h2 span{
+	color: #6D214F;
+	font-size: 1.3em;
+}
+
+.information .bg_img{
+	background-image: url('../img/bg1.png');
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-top: 50px;
+	background-position: 0px -30px;
+}
+.information .bg_img img{
+	height: 400px;
+}
+
+.about{
+	background-color: black;
+}
+.about img{
+	height: 800px;
+}
+.about h1{
+	margin-top: 130px;
+	color: #08b5f2;
+	font-family: 'Oleo Script', cursive;
+	font-size: 3.5em;
+	padding: 15px 25px;
+	text-decoration: underline;
+	margin-left: 50px;
+}
+.about p{
+	margin-top: 15px;
+	color: #fff;
+	font-size: 1.2em;
+	padding: 0px 30px;
+	margin-left: 50px;
+}
